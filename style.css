@@ -1,0 +1,108 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+.nav1{
+    width:100%;
+    height:70px;
+    background-color: white;
+    border-bottom: 2px solid #dddddd;
+    display: flex;
+    justify-content: start;
+    padding-left: 35px;
+    position: fixed;
+}
+.navbox1{
+    width:1300px;
+    height:68px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbox1 :hover{
+    border: 1px solid gray;
+}
+.nav2{
+    height:800px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.nav3{
+    width:100%;
+    height:100px;
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    font-family:Helvetica, Arial, sans-serif ;
+}
+.nav2 img{
+    width:100%;
+}
+.nav3 div{
+    display:flex;
+    padding-top: 40px;
+    border-right: 1px solid gray;
+    padding-right: 30px;
+}
+.nav4{
+    width:100%;
+    height:100%;
+}
+.nav5{
+    width:100%;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    padding-top: 50px;
+}
+.nav6{
+    height:400px;
+    width:100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding:50px;
+}
+.nav6 div{
+    display:flex;
+    flex-direction: column;
+}
+.nav7{
+    width:100%;
+    height:350px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lastbox1{
+    width:1650px;
+    height:60px;
+    background-color:#333333;
+    display: flex;
+    gap: 30px;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding-top: 20px;
+}
+.lastbox2{
+    width:1650px;
+    height:220px;
+    background-color:#333333;
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+.lastbox2 P{
+    display: flex;
+    color: white;
+}
